@@ -1,0 +1,102 @@
+
+
+*{
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: none;
+}
+
+  
+
+
+body{
+  padding: 35px 0px;
+
+background: rgb(174,216,238);
+background: linear-gradient(355deg, rgba(174,216,238,0.9304096638655462) 39%, rgba(94,151,217,0.24623115577889443) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+h3{
+  padding: 5px 0 10px 0;
+}
+
+
+
+.wrapper{
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.login, .password, .age, #submit{
+  margin-top: 10px;
+
+}
+
+.info{
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+
+
+#password_eye{
+  display: inline;
+  position: relative;
+      position: relative;
+      top     : 0px;
+      left    : 0px; 
+      padding-top:   10px;
+}
+
+
+#showpsw{
+  height:  35px;
+  position: absolute;
+        top     : 2px;
+      right   : 10px;
+      padding : 0px;
+}
+
+
+input{
+  width: 95%;
+  height: 35px;
+  font-size: 20px
+background: rgb(174,216,238);
+background: linear-gradient(355deg, rgba(174,216,238,0.19132653061224492) 39%, rgba(94,151,217,0.1377551020408163) 95%);
+
+
+  border: 1px solid skyblue;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+#user_table{
+  overflow-wrap: break-word;
+}
+
+#submit{
+  width: 150px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 736px){
+  input{
+  width: 400px;}
+  body{
+  padding: 50px 15px;
+}
+}
+

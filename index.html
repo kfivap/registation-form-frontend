@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register (frontend only)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+	<h1>Register</h1>
+	<h3>(frontend only)</h1>
+<div class="wrapper">
+
+
+	<div class="login">
+	<input type="text" id="login" placeholder="login" value="">
+	<div id="loginexplain" class="info"></div>
+	</div>
+
+	<div class="password">
+
+	<input type="password" id="password" placeholder="password" value="">
+		<div id="password_eye">
+		<img src="media/password.svg" id="showpsw">
+		</div>
+	</div>
+
+	<div id="passwordexplain" class="info"></div>
+	
+
+	<div class="age">
+	<input type="number" id="age" placeholder="age" value="" min="0" max="100">
+	<div id="ageexplain" class="info"></div>
+	</div>
+	<div>
+	<button id="submit">Register</button>
+	</div>
+
+
+<div id="user_table" class="info">user table: <br></div>
+
+</div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
