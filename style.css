@@ -21,9 +21,35 @@ background: linear-gradient(355deg, rgba(174,216,238,0.9304096638655462) 39%, rg
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+
 }
 
-
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
 h3{
   padding: 5px 0 10px 0;
 }
@@ -99,4 +125,6 @@ background: linear-gradient(355deg, rgba(174,216,238,0.19132653061224492) 39%, r
   padding: 50px 15px;
 }
 }
+
+
 
